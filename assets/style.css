@@ -53,21 +53,45 @@ header nav ul li a {
 .main-body {
     background-color: #d3d3d3;
     display: flex;
-    display: inline-block;
+    flex-direction: column;
 }
 
 .main-body h2 {
     float: left;
+    border-right: 2px solid black;
+    padding-right: 1%;
+    font-size: 50px;
+    text-align: right;
+    margin-left: 10%
 }
 
 .main-body-text {
-    float: right;
-    flex: block;
+    padding-left: 5%;
+    padding-right: 10%;
+    font-size: 20px;
+}
+
+.about-me {
+    padding: 2%;
+    display: flex;
 }
 
 .run-buddy img {
     width: 60%;
     height: auto;
+    display: flex;
+}
+
+.robot-gladiators img {
+    width: 40%;
+    height: auto;
+    display: flex;
+}
+
+.loading-screen img {
+    width: 40%;
+    height: auto;
+    display: flex;
 }
 
 .contact {
