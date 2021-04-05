@@ -5,7 +5,7 @@
 }
 
 header {
-    padding: 10px 20px;
+    padding: 20px 20px;
     background-color: #686868;
     display: flex;
     justify-content: space-between;
@@ -18,6 +18,7 @@ header {
 header h1 {
     font-size: 40px;
     text-align: center;
+    background-color: #d3d3d3;
 }
 
 header a {
@@ -31,6 +32,7 @@ header nav ul {
     justify-content: space-between;
     list-style: none;
     align-items: center;
+    text-decoration: underline;
 }
 
 header nav ul li a {
@@ -58,11 +60,24 @@ header nav ul li a {
 
 .main-body h2 {
     float: left;
-    border-right: 2px solid black;
+    border-right: 3px solid black;
     padding-right: 1%;
     font-size: 50px;
     text-align: right;
     margin-left: 10%
+}
+
+.work {
+    display: flex;
+}
+
+.work h2 {
+    float: left;
+    border-right: 3px solid black;
+    padding-right: 1%;
+    font-size: 50px;
+    text-align: right;
+    margin-left: 12.3%
 }
 
 .main-body-text {
@@ -76,22 +91,49 @@ header nav ul li a {
     display: flex;
 }
 
-.run-buddy img {
-    width: 60%;
-    height: auto;
+.work-container {
+    margin-left: 5%;
+}
+
+.work-container-2 {
+    margin-right: 5%;
     display: flex;
+    flex-direction: row;
+    padding-top: 1%;
+    padding-right: 147px;
+}
+
+.run-buddy img {
+    width: 84%;
+    height: auto;
+    border: 3px solid #585858;
+    opacity: 0.5;
+}
+
+.run-buddy img:hover {
+    opacity: 1;
 }
 
 .robot-gladiators img {
-    width: 40%;
-    height: auto;
-    display: flex;
+    width: 98%;
+    height: 260px;
+    border: 3px solid #585858;
+    opacity: 0.5;
+}
+
+.robot-gladiators img:hover {
+    opacity: 1;
 }
 
 .loading-screen img {
-    width: 40%;
-    height: auto;
-    display: flex;
+    width: 98%;
+    height: 260px;
+    border: 3px solid #585858;
+    opacity: 0.5;
+}
+
+.loading-screen img:hover {
+    opacity: 1;
 }
 
 .contact {
@@ -99,17 +141,35 @@ header nav ul li a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 2%;
+}
+
+.contact h2 {
+    float: left;
+    border-right: 3px solid black;
+    padding-right: 1%;
+    font-size: 50px;
+    text-align: right;
+    margin-left: 8.2%
 }
 
 .contact ul {
-    color: red;
+    color: black;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    font-size: xx-large;
+    text-decoration: underline;
+    align-items: left;
 }
 
 .contact li {
     padding: 10px 15px;
     justify-content: space-between;
 }
+
+.contact li a {
+    color: black;
+}
+
