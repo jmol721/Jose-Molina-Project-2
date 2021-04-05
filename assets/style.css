@@ -173,3 +173,28 @@ header nav ul li a {
     color: black;
 }
 
+@media screen and (max-width: 980px) {
+    header {
+        justify-content: center;
+    }
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        justify-content: center;
+    }
+
+    .robot-gladiators img {
+        justify-content: center;
+    }
+
+    .loading-screen img {
+        justify-content: center;
+    }
+
+    .contact ul {
+        justify-content: center;
+    }
+}
